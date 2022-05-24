@@ -8,13 +8,12 @@ number = input('Please enter a integer number: ')
 
 if number.isnumeric():
     number = int(number)
-    if (number%2) == 0:
+    if (number % 2) == 0:
         print('Pair')
     else:
         print('Odd')
 else:
     print('Please, try again and enter a integer number')
-
 
 """
 Faça um programa que pergunte a hora ao usuário e, baseando-se no horário
@@ -36,7 +35,6 @@ if hour.isnumeric():
         print('Please, try again and enter a valid hour 0 - 23')
 else:
     print('Please, try again and enter a integer hour')
-
 
 """
 Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letras ou
